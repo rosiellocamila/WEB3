@@ -1,0 +1,122 @@
+/*CSS*/
+
+@font-face {
+    font-family: light;
+    src: url(BebasNeueLight.otf);
+}
+
+@font-face {
+    font-family: curv;
+    src: url(curv.otf);
+}
+
+.navbar {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background: none !important;
+    font-family: light;
+    font-size: 30px;
+}
+
+img.centralicon {
+    position: relative;
+    width: 200px;
+    float: center;
+}
+
+.nav-link {
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav>li {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white !important;
+}
+
+.footer {
+    background: rgb(14, 6, 3);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.AboutME {
+    width: 100%;
+    clear: both;
+    margin-top: 5rem;
+}
+
+.img {
+    float: right;
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+#mePhoto {
+    width: 100%;
+    height: 300px;
+}
+
+.txt {
+    float: left;
+    margin-right: 0px;
+    margin-top: 5%;
+    font-family: curv;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.nextIcon {
+    background-image: url('img/right-arrow-circular-buttonDE.png') !important;
+    background-position: 0 0 !important;
+}
+
+.prevIcon {
+    background-image: url('img/right-arrow-circular-buttonIZ.png') !important;
+    background-position: 0 0 !important;
+}
+
+.row {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.uno {
+    font-size: 25px;
+}
+
+.card-img-top {
+    margin-bottom: 10px;
+}
+
+.dos {
+    font-size: 25px;
+}
+
+.divMe {
+    outline: 10px double rgb(102, 60, 104);
+    margin-top: 30px;
+}
+
+.zoom{
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 0s, height 2s, transform 2s;
+    -o-transition: width 0s, height 2s,-o-transform 2s;
+}
+.zoom:hover{
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+   
+    transform: translateZ(150px);
+}
