@@ -308,6 +308,7 @@ img.centralicon {
     transition: all .15s ease-in-out;
     border-radius: 100%;
     font-family: helvetica;
+    color: white;
 }
 
 .RM {
@@ -327,4 +328,9 @@ img.centralicon {
 
 .FC {
     background-color: rgb(246, 154, 91);
+}
+
+.btns:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
