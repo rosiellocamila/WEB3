@@ -279,3 +279,52 @@ img.centralicon {
 .nube {
     width: 90% !important;
 }
+
+
+/* 
+.justify-content {
+    background-color: rgb(69, 101, 209);
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+} */
+
+.btns {
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 2rem 2rem;
+    font-size: 2rem;
+    transition: all .15s ease-in-out;
+    border-radius: 100%;
+    font-family: helvetica;
+}
+
+.RM {
+    background-color: #DEA8AB;
+    margin-right: 4rem;
+}
+
+.SC {
+    background-color: rgb(172, 213, 199);
+    margin-right: 4rem;
+}
+
+.SF {
+    background-color: rgb(169, 155, 217);
+    margin-right: 4rem;
+}
+
+.FC {
+    background-color: rgb(246, 154, 91);
+}
