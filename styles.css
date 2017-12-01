@@ -70,7 +70,7 @@
 
 img.centralicon {
     position: relative;
-    width: 200px;
+    width: 180px;
     float: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -347,7 +347,7 @@ img.centralicon {
 /* ---------------Abstract-------------- */
 
 .jumbotron {
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     margin-bottom: 2rem;
     background-color: rgba(0, 0, 0, 0.761);
     border-radius: 0%;
@@ -366,7 +366,7 @@ img.centralicon {
     color: rgb(255, 255, 255);
     font-family: "light";
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 
 #jumbo {
