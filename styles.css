@@ -91,6 +91,8 @@ img.centralicon {
     margin-left: 0px;
     margin-right: 0px;
     color: white !important;
+    padding-left: 0px;
+    padding-right: 30px;
 }
 
 .footer {
@@ -287,15 +289,6 @@ img.centralicon {
 .nube {
     width: 90% !important;
 }
-
-
-/* 
-.justify-content {
-    background-color: rgb(69, 101, 209);
-    display: flex;
-    justify-content: center;
-    border-radius: 100%;
-} */
 
 .btns {
     font-weight: 400;
