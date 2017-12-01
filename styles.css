@@ -338,13 +338,13 @@ img.centralicon {
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 2rem;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.761);
     border-radius: 0%;
 }
 
 .lead {
-    font-family: "Helvetica Neue";
-    font-size: 1rem;
+    font-family: "gothic";
+    font-size: 130%;
     font-weight: 400;
     line-height: 1.5;
     color: #f5f4fa;
@@ -352,4 +352,13 @@ img.centralicon {
 
 .display-3 {
     color: rgb(255, 255, 255);
+    font-family: "Helvetica";
+}
+
+#jumbo {
+    background-image: url("img/jumbotron.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
