@@ -403,3 +403,19 @@ img.centralicon {
         margin-top: 30%;
     }
 } */
+
+#interv {
+    background-image: url("img/BackInterv.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#voc {
+    background-image: url("img/wall.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
