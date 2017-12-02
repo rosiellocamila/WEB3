@@ -57,7 +57,7 @@
 }
 
 .skillsandcompetences {
-    background-image: url("img/skills.png");
+    background-image: url("img/wall.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -380,3 +380,11 @@ img.centralicon {
 
 
 /* ---------------FIN Abstract-------------- */
+
+.defcards {
+    background-image: url("img/wall.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
