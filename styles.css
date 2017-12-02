@@ -419,3 +419,9 @@ img.centralicon {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#clickme {
+    background-image: url("img/clickme.png");
+    background-repeat: repeat;
+    background-size: 5%;
+}
