@@ -17,7 +17,7 @@
 <body>
 
     <!-- navbar de Bootstrap -->
-    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light " role="navigation">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,16 +30,16 @@
             <!-- rigth -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Concepts <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#defcards">Concepts <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Interviews & Speaks</a>
+                    <a class="nav-link" href="#Interviews">Interviews & Speaks</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Skills &   Competences</a>
+                    <a class="nav-link" href="#skillandcompetences">Skills &   Competences</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Success</a>
+                    <a class="nav-link" href="#success">Success</a>
                 </li>
             </ul>
 
@@ -82,9 +82,9 @@
     <!-- FIN jumbotron Abstract -->
 
     <!-- columnas con definiciones -->
-    <section class=" defcards mt-0">
+    <section class=" defcards mt-0" name="defcards">
 
-        <section id="defcards" class="container mt-5 pt-5">
+        <section id="defcards" class="container">
 
             <div class="row">
                 <div class="card-deck">
@@ -142,7 +142,7 @@
     <!-- FIN columnas con defuniciones -->
 
     <!-- carousel de Bootstrap Interviews -->
-    <section id="Interviews ">
+    <section id="Interviews" name="Interviews">
 
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
@@ -185,7 +185,7 @@
         <!-- FIN carousel de Bootstrap Interviews -->
 
         <!-- section buttons interviews -->
-        <section class="container mt-4 mb-4 text-center ">
+        <section class="container mt-4 text-center ">
 
             <a class="btn btns RM" href="pdf/ENTREVISTA_RITA.pdf" target="_blank" role="button">RM</a>
             <a class="btn btns SC" href="pdf/ENTREVISTA_SEBA.pdf" target="_blank" role="button">SC</a>
@@ -198,9 +198,9 @@
 
         <!-- seccion skills and exit-->
 
-        <section id="skillandcompetences" class="skillsandcompetences">
+        <section id="skillandcompetences" name="skillandcompetences" class="skillsandcompetences">
 
-            <div class="container-fluid Reflexions">
+            <div class="container-fluid ">
                 <div class="container">
                     <div class="row ">
 
@@ -232,11 +232,11 @@
 
         <!--FIN secion skills and exit-->
 
-        <!-- secion reflexions -->
+        <!-- secion success -->
 
-        <!-- carousel de Bootstrap Reflexions -->
+        <!-- carousel de Bootstrap success -->
 
-        <section id="reflexions" class="container">
+        <section id="success" name="success" class="container">
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
                 <div class="carousel-inner">
@@ -287,7 +287,7 @@
             </div>
 
         </section>
-        <!-- fin seccion reflexions -->
+        <!-- fin seccion success -->
 
         <!--  seccion vocacion -->
 

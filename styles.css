@@ -73,12 +73,12 @@
     border-radius: 0;
     background: none !important;
     font-family: light;
-    font-size: 38px;
+    font-size: 33px;
 }
 
 img.centralicon {
     position: relative;
-    width: 180px;
+    width: 130px;
     float: center;
     margin-left: 0px;
     margin-right: 0px;
@@ -388,3 +388,10 @@ img.centralicon {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+/* @media screen and(max-height: 768px) {
+    #jumbo {
+        margin-top: 30%;
+    }
+} */
