@@ -425,3 +425,7 @@ img.centralicon {
     background-repeat: repeat;
     background-size: 5%;
 }
+
+#infografia {
+    display: none;
+}
