@@ -33,31 +33,6 @@ $(document).ready(function() {
                     }
                 });
 
-            //Functions to change languegue between enligh and spanish
-            $("#abstract_english").click(function change_languague_english() {
-                $("#abstract_english").fadeOut(0);
-                $("#abstract_spanish").fadeIn();
-            });
-
-            $("#abstract_spanish").click(function change_languague_spanish() {
-                $("#abstract_spanish").fadeOut(0);
-                $("#abstract_english").fadeIn();
-            });
-
-            //Function to scroll top, when it does click on the button "buttonToTop"
-            $("#buttonToTop").click(function topFunction() {
-                $(window).scrollTop(0);
-            });
-
-
-            //Function to make principalNav and buttonToTop disappear
-            function makeDisappear() {
-                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                    $("#buttonToTop").fadeIn();
-                } else {
-                    $("#buttonToTop").fadeOut();
-                }
-            }
 
             //INFOGRAFIA
 
