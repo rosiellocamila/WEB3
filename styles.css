@@ -394,6 +394,16 @@ img.centralicon {
     text-align: justify;
 }
 
+.card-header {
+    font-family: light;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.text-dark {
+    text-align: center !important;
+}
+
 #successC {
     background-image: url("img/wall.png");
     background-position: center center;
