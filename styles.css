@@ -90,6 +90,10 @@ img.centralicon {
     text-decoration: overline;
 }
 
+#nav {
+    padding: 0%;
+}
+
 .navbar-nav>li {
     padding-left: 0px;
     padding-right: 0px;
@@ -368,6 +372,7 @@ img.centralicon {
     font-family: "light";
     text-align: center;
     margin-bottom: 0rem;
+    padding-top: 2rem;
 }
 
 #jumbo {
