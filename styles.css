@@ -492,3 +492,29 @@ img.centralicon {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#btnCartas {
+    background-color: rgba(230, 255, 234, .7);
+    border-color: rgb(0, 0, 0) !important;
+    font-weight: 200;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 9px double !important;
+    padding: 4rem 4rem;
+    font-size: 3rem;
+    transition: all .15s ease-in-out;
+    border-radius: 100%;
+    font-family: light;
+    /* margin-top: 3rem; */
+    float: right;
+    max-height: 210px;
+    max-width: 210px;
+    padding-left: 3.5%;
+    margin-right: 40%;
+    margin-bottom: 4rem;
+    color: black !important;
+}
