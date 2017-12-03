@@ -427,5 +427,37 @@ img.centralicon {
 }
 
 #infografia {
+    clear: both;
     display: none;
+}
+
+#btnInfografia {
+    background-color: rgba(74, 28, 119, 0.433);
+    border-color: rgb(0, 0, 0);
+    font-weight: 200;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    padding: 4rem 4rem;
+    font-size: 3rem;
+    transition: all .15s ease-in-out;
+    border-radius: 100%;
+    font-family: light;
+    margin-top: 3rem;
+    float: right;
+    max-height: 210px;
+    max-width: 210px;
+    padding-left: 0%;
+}
+
+#tips {
+    background-image: url("img/wall.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }

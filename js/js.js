@@ -1,12 +1,4 @@
 $(document).ready(function() {
-    //To show my name with some animation
-    $("#myName").fadeIn(4500);
-    $("#sabana").fadeIn(1000);
-    $("#me").fadeIn(4500);
-
-    $("#page_modal").click(function borrar() {
-        $("#text_email").value = "";
-    });
 
     //Function to make smooth scroll
     $('a[href*="#"]')
@@ -57,8 +49,6 @@ $(document).ready(function() {
         $(window).scrollTop(0);
     });
 
-    //Scrooll event, call function "makeDisappear"
-    window.onscroll = function() { makeDisappear() };
 
     //Function to make principalNav and buttonToTop disappear
     function makeDisappear() {
@@ -69,13 +59,13 @@ $(document).ready(function() {
         }
     }
 
-    //Function that allows to show infographic image when it's cliked on the button "btn_show_infographic"
-    $("#btn_show_infographic").click(function show_infographic() {
-        $("#infographic_image").fadeIn(1000);
+    //INFOGRAFIA
+
+    $("#btnInfografia").click(function showImag() {
+        $("#infografia").fadeIn(1000);
     });
 
-    //Function that allows to hide infographic image when it's clicked on it
-    $("#infographic_image").click(function hide_infographic() {
-        $("#infographic_image").fadeOut(1000);
+    $("#infografia").click(function hideImg() {
+        $("#infografia").fadeOut(1000);
     });
 });
