@@ -32,15 +32,15 @@ $(document).ready(function() {
                         }
                     }
                 });
+        }
 
+        //INFOGRAFIA
 
-            //INFOGRAFIA
+        //     $("#btnInfografia").click(function showImag() {
+        //         $("#infografia").fadeIn(1000);
+        //     });
 
-            //     $("#btnInfografia").click(function showImag() {
-            //         $("#infografia").fadeIn(1000);
-            //     });
-
-            //     $("#infografia").click(function hideImg() {
-            //         $("#infografia").fadeOut(1000);
-            //     });
-            // });
+        //     $("#infografia").click(function hideImg() {
+        //         $("#infografia").fadeOut(1000);
+        //     });
+        // });;;}}

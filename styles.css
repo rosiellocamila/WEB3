@@ -389,6 +389,11 @@ img.centralicon {
     background-size: cover;
 }
 
+.card-body {
+    font-family: gothic;
+    text-align: justify;
+}
+
 #successC {
     background-image: url("img/wall.png");
     background-position: center center;
