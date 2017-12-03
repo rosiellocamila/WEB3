@@ -428,7 +428,7 @@ img.centralicon {
 
 #infografia {
     clear: both;
-    display: none;
+    display: block;
 }
 
 #btnInfografia {
