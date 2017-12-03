@@ -525,3 +525,12 @@ img.centralicon {
     text-decoration: overline !important;
     padding-bottom: 2rem;
 }
+
+#divfoot {
+    text-align: left;
+    font-family: gothic !important;
+    color: black !important;
+    text-decoration: overline !important;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+}
