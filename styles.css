@@ -474,3 +474,11 @@ img.centralicon {
     background-attachment: fixed;
     background-size: cover;
 }
+
+#job {
+    background-image: url("img/wall.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
