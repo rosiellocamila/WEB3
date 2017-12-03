@@ -117,19 +117,16 @@ img.centralicon {
 #AboutMe {
     clear: both;
     outline: 3px double rgb(102, 60, 104);
-    margin-top: 2%;
 }
 
 #Meimag {
     float: right;
     background-color: rgb(255, 254, 254);
-    margin-top: 2%;
 }
 
 #txtMe {
     float: left;
-    margin-top: 10%;
-    font-family: agency;
+    font-family: gothic;
     text-align-last: justify;
     font-size: 150%;
 }
@@ -446,10 +443,6 @@ img.centralicon {
     background-size: 5%;
 }
 
-#inf {
-    clear: both;
-}
-
 #h2Tips {
     float: left;
 }
@@ -522,4 +515,13 @@ img.centralicon {
     margin-right: 40%;
     margin-bottom: 4rem;
     color: black !important;
+}
+
+#h3foot {
+    text-align: left;
+    font-family: gothic !important;
+    color: black !important;
+    margin-left: 2rem;
+    text-decoration: overline !important;
+    padding-bottom: 2rem;
 }
