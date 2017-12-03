@@ -426,13 +426,16 @@ img.centralicon {
     background-size: 5%;
 }
 
-#infografia {
+#inf {
     clear: both;
-    display: block;
+}
+
+#h2Tips {
+    float: left;
 }
 
 #btnInfografia {
-    background-color: rgba(74, 28, 119, 0.433);
+    background-color: rgba(230, 255, 234, .7);
     border-color: rgb(0, 0, 0);
     font-weight: 200;
     white-space: nowrap;
@@ -452,6 +455,11 @@ img.centralicon {
     max-height: 210px;
     max-width: 210px;
     padding-left: 0%;
+    margin-right: 5%;
+}
+
+#h2Tips {
+    float: left;
 }
 
 #tips {
